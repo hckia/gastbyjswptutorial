@@ -7,6 +7,3 @@ Gatsby repository can be found [here](https://github.com/hckia/gatsbyjswptutoria
 
 .
 
-```
-sudo npm install -g gatsby-cli
-```
