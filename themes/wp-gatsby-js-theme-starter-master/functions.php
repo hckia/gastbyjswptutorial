@@ -1,6 +1,9 @@
 <?php
+// https://developer.wordpress.org/reference/functions/add_theme_support/
 add_theme_support( 'custom-logo' );
 add_theme_support( 'menus' );
+// allows us to add thumbnails to posts
+add_theme_support( 'post-thumbnails');
 
 
 /* custom Portfolio post type */
@@ -18,6 +21,7 @@ function create_custom_portfolio_post_type(){
 						  		'name' => __('Portfolio'),
 							  	'singular_name' => __('Portfolio')
 						  ),
+						  	'public' => true,
 						  	// show in dash
 						  	'show_in_admin_bar' => true,
 						  	// show in API
